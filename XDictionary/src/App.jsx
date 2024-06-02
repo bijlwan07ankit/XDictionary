@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import Dictionary from './Dictionary'
 import './App.css'
 
 function App() {
@@ -7,8 +7,7 @@ function App() {
 
   return (
     <>
-     XDictionary
-  
+     <Dictionary />
     </>
   )
 }
